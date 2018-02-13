@@ -5,7 +5,18 @@ using System.Text;
 
 using Xamarin.Forms;
 
-//another hidden comment
+/*
+This is a comment being written by Blake,
+who at this point is very tired of dealing with Github.
+Seriously, who made this garbage?
+
+"I have an idea, let's make some software no-one
+understands how to use."
+
+"Oh God, that's perfect developer2, great idea!"
+
+Blake: "..."
+*/
 
 namespace HelloWorld
 {
