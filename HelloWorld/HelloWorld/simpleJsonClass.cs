@@ -11,6 +11,11 @@ namespace HelloWorld
         {
             this.data = data;
         }
+
+        public String toJsonString()
+        {
+            return "{'data':'" + this.data + "'}";
+        }
     }
 }
 //a comment
