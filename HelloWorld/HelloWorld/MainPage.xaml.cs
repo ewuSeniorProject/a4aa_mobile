@@ -11,7 +11,7 @@ namespace HelloWorld
 {
 	public partial class MainPage : ContentPage
 	{
-		public MainPage()
+        public MainPage()
 		{
 			InitializeComponent();
 		}
@@ -21,19 +21,16 @@ namespace HelloWorld
             String userEntry = ((Entry)sender).Text;
             sendAndResponse(userEntry);
         }
-
+        
         private async void sendAndResponse(String userEntry)
         {
-            simpleJsonClass sjc = new simpleJsonClass(userEntry);
-            var actualJSON = JsonConvert.SerializeObject(sjc);
-
-            var content = new StringContent(actualJSON, Encoding.UTF8, "application/x-www-form-urlencodeed");
-
-            var client = new HttpClient();
-            var response = await client.PostAsync("http://mizesolutions.com/a4aa1/a4aa/src/a4aa_rec.php", content);
-            var result = JsonConvert.DeserializeObject<int>(response.Content.ReadAsStringAsync().Result);
-
-            resLabel.Text = result.ToString();
+            using (var httpClient = new HttpClient())
+            {
+                simpleJsonClass sjc = new simpleJsonClass(userEntry);
+                var uri = new Uri("http://mizesolutions.com/a4aa1/a4aa/src/a4aa_rec.php");
+                var response = httpClient.PostAsync(uri, new StringContent(sjc.toJsonString(), Encoding.UTF8, "application/json")).Result;
+                resLabel.Text = await response.Content.ReadAsStringAsync();
+            }
         }
     }
 }
