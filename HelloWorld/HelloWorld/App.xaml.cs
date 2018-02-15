@@ -16,6 +16,9 @@ understands how to use."
 "Oh God, that's perfect developer2, great idea!"
 
 Blake: "..."
+
+Here's is more insane thoughts from your friend, Blake:
+"Hi."
 */
 
 namespace HelloWorld
