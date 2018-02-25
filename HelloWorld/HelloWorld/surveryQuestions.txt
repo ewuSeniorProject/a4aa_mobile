@@ -1,0 +1,8 @@
+﻿S/:1/:PLANNING OVERVIEW - Access 4 All Spokane Site Review for:/:text
+S/:2/:Comments: Meeting place, location of accessible parking for reviewer, bus line and stop, special tools needed/:text
+S/:3/:contact person:/:text
+S/:4/:office location and number:/:text
+S/:5/:phone#:/:text
+S/:6/:Reviewers/:text
+S/:7/:Date Scheduled/:text
+S/:8/:Time Scheduled/:text
