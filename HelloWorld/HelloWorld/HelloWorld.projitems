@@ -22,6 +22,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="$(MSBuildThisFileDirectory)surveryQuestions.txt" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)surveyQuestions.txt" />
   </ItemGroup>
 </Project>
