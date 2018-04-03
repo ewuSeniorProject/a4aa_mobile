@@ -21,4 +21,7 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)surveyQuestions.txt" />
+  </ItemGroup>
 </Project>
