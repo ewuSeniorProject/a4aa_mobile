@@ -20,8 +20,43 @@
     <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveySections\SectionA.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveySections\SectionB.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveySections\SectionC.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveySections\SectionD.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveySections\SectionE.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveySections\SectionF.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveySections\SectionG.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveySections\SectionH.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveySections\SectionI.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveySections\SectionJ.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\Survey.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveyTables\CategoryT.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveyTables\CommunicationT.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveyTables\ConfigurationT.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveyTables\ElevatorT.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveyTables\EmergencyT.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveyTables\EstablishmentT.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveyTables\Exterior_PathwaysT.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveyTables\Exterior_RampsT.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveyTables\Exterior_StairsT.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveyTables\InteriorT.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveyTables\Main_EntranceT.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveyTables\ParkingT.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveyTables\Passenger_LoadingT.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveyTables\RestroomT.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveyTables\Restroom_InfoT.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveyTables\Route_From_ParkingT.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveyTables\SeatingT.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveyTables\SignageT.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveyTables\STA_BusT.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveyTables\STA_RouteT.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveyTables\UserT.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)surveyQuestions.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveySections\" />
   </ItemGroup>
 </Project>
