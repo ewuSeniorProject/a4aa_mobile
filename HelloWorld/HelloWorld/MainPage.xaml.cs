@@ -17,9 +17,23 @@ namespace HelloWorld
 		{
 			InitializeComponent();
 
-            var layout = new StackLayout { Padding = new Thickness(5.0, 10.0) };
+			Button button = new Button//here
+			{
+				Text = "Go to login Page!",
+				Font = Font.SystemFontOfSize(NamedSize.Large),
+				BorderWidth = 1,
+				HorizontalOptions = LayoutOptions.Center,
+				VerticalOptions = LayoutOptions.CenterAndExpand,
+				TextColor = Color.Red
+			};
+			button.Clicked += OnClicked;//to here
+			
 
-            var assembly = typeof(App).GetTypeInfo().Assembly;
+			var layout = new StackLayout { Padding = new Thickness(5.0, 10.0) };
+
+			layout.Children.Add(button);//this
+
+			var assembly = typeof(App).GetTypeInfo().Assembly;
             Stream stream = assembly.GetManifestResourceStream("HelloWorld.Droid.surveyQuestions.txt");
             string text = "";
             
@@ -43,11 +57,20 @@ namespace HelloWorld
                 layout.Children.Add(entry);
             }
 
-            var scrollView = new ScrollView { Content = layout };
+			
+
+			var scrollView = new ScrollView { Content = layout };
             this.Content = scrollView;
+
+			
 		}
 
-        private void Entry_Completed(object sender, EventArgs e)
+		async void OnClicked(object sender, EventArgs args)
+		{
+			await Navigation.PushAsync(new Login.LoginPage());
+		}
+
+		private void Entry_Completed(object sender, EventArgs e)
         {
             String userEntry = ((Entry)sender).Text;
             sendAndResponse(userEntry);

@@ -6,6 +6,7 @@
 
 
     <StackLayout>
+        <Button Text="Go to Login Page" Clicked="OnClicked" />
         <Label TextColor="BlueViolet" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center" Text="Please enter data below."/>
         <Entry Completed="Entry_Completed" HorizontalOptions="Center" VerticalOptions="Center" Placeholder="Enter data here..."/>
         <Label x:Name="resLabel" TextColor="BlueViolet" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center" Text=""/>
