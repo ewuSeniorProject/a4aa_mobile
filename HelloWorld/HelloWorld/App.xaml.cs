@@ -5,21 +5,7 @@ using System.Text;
 
 using Xamarin.Forms;
 
-/*
-This is a comment being written by Blake,
-who at this point is very tired of dealing with Github.
-Seriously, who made this garbage?
 
-"I have an idea, let's make some software no-one
-understands how to use."
-
-"Oh God, that's perfect developer2, great idea!"
-
-Blake: "..."
-
-Here's is more insane thoughts from your friend, Blake:
-"Hi."
-*/
 
 namespace HelloWorld
 {
@@ -29,7 +15,8 @@ namespace HelloWorld
 		{
 			InitializeComponent();
 
-			MainPage = new HelloWorld.MainPage();
+			//MainPage = new HelloWorld.MainPage();
+			MainPage = new NavigationPage(new MainPage());
 		}
 
 		protected override void OnStart ()
