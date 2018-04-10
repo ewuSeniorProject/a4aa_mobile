@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using HelloWorld.SurveyClasses.SurveyTables;
 
-namespace HelloWorld.SurveyClasses.SurveySections
+namespace A4AA_Application.SurveyClasses.SurveySections
 {
     class SectionB
     {

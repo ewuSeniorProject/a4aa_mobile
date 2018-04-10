@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("HelloWorld.Droid.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("A4AA_Application.Droid.Resource", IsApplication=true)]
 
-namespace HelloWorld.Droid
+namespace A4AA_Application.Droid
 {
 	
 	
@@ -26,7 +26,7 @@ namespace HelloWorld.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::HelloWorld.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::A4AA_Application.Droid.Resource.Attribute.actionBarSize;
 		}
 		
 		public partial class Animation

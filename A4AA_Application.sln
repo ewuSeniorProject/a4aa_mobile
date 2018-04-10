@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Android", "HelloWorld\HelloWorld.Android\HelloWorld.Android.csproj", "{FCE78A11-7DBE-430A-A918-908918304833}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A4AA_Application.Android", "HelloWorld\HelloWorld.Android\A4AA_Application.Android.csproj", "{FCE78A11-7DBE-430A-A918-908918304833}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "HelloWorld", "HelloWorld\HelloWorld\HelloWorld.shproj", "{28D0D80E-2A76-4E85-A476-9ADDB3EA37F8}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "A4AA_Application", "HelloWorld\HelloWorld\A4AA_Application.shproj", "{28D0D80E-2A76-4E85-A476-9ADDB3EA37F8}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
