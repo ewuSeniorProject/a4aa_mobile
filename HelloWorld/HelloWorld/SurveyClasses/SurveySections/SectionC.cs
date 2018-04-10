@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HelloWorld.SurveyClasses.SurveySections
+namespace A4AA_Application.SurveyClasses.SurveySections
 {
     class SectionC
     {

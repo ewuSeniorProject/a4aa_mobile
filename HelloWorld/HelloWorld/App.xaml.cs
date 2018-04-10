@@ -7,7 +7,7 @@ using Xamarin.Forms;
 
 
 
-namespace HelloWorld
+namespace A4AA_Application
 {
 	public partial class App : Application
 	{

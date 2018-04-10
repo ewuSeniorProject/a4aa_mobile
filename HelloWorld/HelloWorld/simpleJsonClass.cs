@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HelloWorld
+namespace A4AA_Application
 {
     class simpleJsonClass
     {
