@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace HelloWorld.Login
+namespace A4AA_Application.Login
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class CreateAccountPage : ContentPage

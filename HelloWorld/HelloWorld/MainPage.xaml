@@ -1,15 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:HelloWorld"
-             x:Class="HelloWorld.MainPage">
+             xmlns:local="clr-namespace:A4AA_Application"
+             x:Class="A4AA_Application.MainPage">
 
 
     <StackLayout>
-        <Button Text="Go to Login Page" Clicked="OnClicked" />
-        <Label TextColor="BlueViolet" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center" Text="Please enter data below."/>
-        <Entry Completed="Entry_Completed" HorizontalOptions="Center" VerticalOptions="Center" Placeholder="Enter data here..."/>
-        <Label x:Name="resLabel" TextColor="BlueViolet" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center" Text=""/>
+        <Button Text="Go to Login Page" Clicked="OnClicked1" />
+        <Button Text="Go to Survey Page" Clicked="OnClicked2" />
     </StackLayout>
 
 </ContentPage>

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using HelloWorld.SurveyClasses.SurveySections;
+using A4AA_Application.SurveyClasses.SurveySections;
 
-namespace HelloWorld.SurveyClasses
+namespace A4AA_Application.SurveyClasses
 {
     class Survey
     {

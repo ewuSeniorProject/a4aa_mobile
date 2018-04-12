@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HelloWorld.SurveyClasses.SurveyTables
+namespace A4AA_Application.SurveyClasses.SurveyTables
 {
     class ElevatorT
     {
@@ -159,7 +159,7 @@ namespace HelloWorld.SurveyClasses.SurveyTables
                 if (value.Length > 32)
                     throw new ArgumentOutOfRangeException();
 
-                lighting = value;
+                lighting_type = value;
             }
         }
 

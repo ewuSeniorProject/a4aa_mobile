@@ -60,6 +60,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveyTables\STA_BusT.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveyTables\STA_RouteT.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SurveyClasses\SurveyTables\UserT.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SurveyPages\MainSurveyPage.xaml.cs">
+      <DependentUpon>MainSurveyPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)surveyQuestions.txt" />
@@ -73,6 +77,12 @@
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Login\CreateAccountPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)SurveyPages\MainSurveyPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
