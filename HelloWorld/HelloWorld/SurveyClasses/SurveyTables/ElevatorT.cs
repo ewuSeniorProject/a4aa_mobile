@@ -159,7 +159,7 @@ namespace HelloWorld.SurveyClasses.SurveyTables
                 if (value.Length > 32)
                     throw new ArgumentOutOfRangeException();
 
-                lighting = value;
+                lighting_type = value;
             }
         }
 
