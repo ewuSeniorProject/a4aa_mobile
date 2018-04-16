@@ -1,12 +1,4 @@
-﻿S/:1/:PLANNING OVERVIEW - Access 4 All Spokane Site Review for:/:text
-S/:2/:Comments: Meeting place, location of accessible parking for reviewer, bus line and stop, special tools needed/:text
-S/:3/:contact person:/:text
-S/:4/:office location and number:/:text
-S/:5/:phone#:/:text
-S/:6/:Reviewers/:text
-S/:7/:Date Scheduled/:text
-S/:8/:Time Scheduled/:text
-A/:1/:Establishment name/:text
+﻿A/:1/:Establishment name/:text
 A/:2/:Website URL/:text
 A/:3/:Category of establishment/:choose/:Arts & Entertainment;Automotive;Bank & Finance;Education;Food & Drink;Government & Community;Healthcare;News & Media;Professional Services;Real Estate;Religion;Retail;Sports & Recreation;Travel;Utilities;Other
 A/:4/:Subtype (Ex: fast food, motel, movie theater, apparel, etc.)/:text
